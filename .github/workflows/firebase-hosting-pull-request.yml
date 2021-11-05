@@ -12,7 +12,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: >-
-            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MICAYLA_GLITZ_AND_GLAMOU_10CF7
-            }}
-          projectId: micayla-glitz-and-glamou-10cf7
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MICAYLA_GLITZ_AND_GLAM }}'
+          projectId: micayla-glitz-and-glam
